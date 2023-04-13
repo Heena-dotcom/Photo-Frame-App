@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="dp_3">3dp</dimen>
+    <dimen name="value_5">5dp</dimen>
+    <dimen name="value_10">10dp</dimen>
+
+
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="labels_text_size">14sp</dimen>
+
+    <dimen name="cpv_required_padding">6dp</dimen>
+    <dimen name="cpv_dialog_preview_width">66dp</dimen>
+    <dimen name="cpv_dialog_preview_height">34dp</dimen>
+    <dimen name="cpv_column_width">58dp</dimen>
+    <dimen name="cpv_item_size">50dp</dimen>
+    <dimen name="cpv_item_horizontal_padding">8dp</dimen>
+    <dimen name="cpv_color_preference_normal">28dp</dimen>
+    <dimen name="cpv_color_preference_large">40dp</dimen>
+</resources>

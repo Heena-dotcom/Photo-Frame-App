@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#474747</color>
+    <color name="colorPrimaryDark">#3d3d3d</color>
+    <color name="colorAccent">#b30a53</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="blacktrans">#b1000000</color>
+    <color name="grey_light">#4b4949</color>
+
+    <color name="black_trans">#98000000</color>
+    <color name="ucrop_color_crop_background">#000</color>
+    <color name="ucrop_color_default_crop_frame">#ffffff</color>
+    <color name="ucrop_color_default_crop_grid">#80ffffff</color>
+    <color name="ucrop_color_default_dimmed">#2a2a2a</color>
+    <color name="ucrop_color_default_logo">#4f212121</color>
+    <color name="ucrop_color_progress_wheel_line">#808080</color>
+    <color name="ucrop_color_statusbar">#3d3d3d</color>
+    <color name="ucrop_color_toolbar">#474747</color>
+    <color name="ucrop_color_toolbar_widget">#fff</color>
+    <color name="ucrop_color_widget">#000</color>
+    <color name="ucrop_color_widget_active">#b30842</color>
+    <color name="ucrop_color_widget_background">#fff</color>
+    <color name="ucrop_color_widget_text">#000</color>
+    <color name="black_transparent">#b8000000</color>
+</resources>

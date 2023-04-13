@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_rate_us"
+        android:icon="@drawable/rate"
+        android:title="Rate Us" />
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/share"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/nav_more_apps"
+        android:icon="@drawable/more"
+        android:title="More Apps" />
+
+    <item
+        android:id="@+id/nav_privacy_policy"
+        android:icon="@drawable/privacy"
+        android:title="Privacy Policy" />
+
+
+
+
+</menu>

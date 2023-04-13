@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black_trans"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+
+            <TextView
+                android:id="@+id/txtEnteredText"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/value_5"
+                android:layout_height="match_parent"
+                android:maxLines="5"
+                android:textSize="40sp"
+                android:paddingLeft="@dimen/value_10"
+                android:paddingRight="@dimen/value_10"/>
+
+            <EditText
+                android:id="@+id/edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:cursorVisible="true"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="40sp"/>
+            <crephotoseditor.valentinephotoeditor.fab.FloatingActionMenu
+                android:id="@+id/text_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                fab:menu_labels_style="@style/MenuLabelsStyle"
+                fab:menu_labels_showAnimation="@anim/jump_from_down"
+                fab:menu_labels_hideAnimation="@anim/jump_to_down"
+                fab:menu_animationDelayPerItem="0"
+                fab:menu_shadowColor="#444"
+                fab:menu_colorNormal="@color/colorPrimary"
+                fab:menu_colorPressed="@color/colorPrimaryDark"
+                fab:menu_colorRipple="#d958b2">
+
+                <crephotoseditor.valentinephotoeditor.fab.FloatingActionButton
+                    android:id="@+id/fabColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_color"
+                    fab:fab_label="Color"
+                    style="@style/MenuButtonsStyle" />
+
+                <crephotoseditor.valentinephotoeditor.fab.FloatingActionButton
+                    android:id="@+id/fabFont"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_font"
+                    fab:fab_label="Fonts"
+                    style="@style/MenuButtonsStyle" />
+
+
+            </crephotoseditor.valentinephotoeditor.fab.FloatingActionMenu>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_keyboard"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+
+                    android:src="@drawable/ic_keyboard"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/iv_gravity"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_back"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_done"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:src="@drawable/ic_done"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+
+        <LinearLayout
+            android:id="@+id/lycolorlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:visibility="gone">
+
+            <GridView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:background="@color/black"
+                android:horizontalSpacing="2.5dp"
+                android:numColumns="7"
+                android:verticalSpacing="2.5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyfontlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:visibility="gone">
+
+            <GridView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_weight="1.0"
+                android:background="@color/black"
+                android:horizontalSpacing="5dp"
+                android:numColumns="3"
+                android:padding="2dp"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="5dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

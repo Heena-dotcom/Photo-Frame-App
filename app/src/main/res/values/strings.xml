@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Valentine Day Photo Frame</string>
+
+    <string name="my_work">My Work</string>
+    <string name="no_video_found">No Images Found...</string>
+
+
+    <string name="edit_image">Edit Image</string>
+    <string name="frame_list">Frame List</string>
+
+    <string name="cpv_default_title">Select a Color</string>
+    <string name="cpv_presets">Presets</string>
+    <string name="cpv_custom">Custom</string>
+    <string name="cpv_select">Select</string>
+    <string name="sponsored">Sponsored</string>
+    <string name="icon_desc">icon</string>
+    <string name="image_desc">Media</string>
+</resources>
